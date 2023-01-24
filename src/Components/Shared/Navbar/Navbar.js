@@ -32,16 +32,16 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="" className="justify-between">
+                <Link to="/Profile" className="justify-between">
                   Profile
                   <span className="badge">New</span>
                 </Link>
               </li>
               <li>
-                <Link to="">Settings</Link>
+                <Link to="Settings">Settings</Link>
               </li>
               <li>
-                <Link to="">Logout</Link>
+                <Link to="/Logout">Logout</Link>
               </li>
             </ul>
           </div>
