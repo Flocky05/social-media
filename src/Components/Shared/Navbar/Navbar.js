@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "../../../imges/profile/profile.jpeg";
 
 const Navbar = () => {
   return (
@@ -12,11 +13,9 @@ const Navbar = () => {
         </div>
         <div className="flex-none">
           <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle">
-              <div className="indicator">
-                <span className="badge badge-sm indicator-item">8</span>
-              </div>
-            </label>
+            <Link to="/Newsfeed" className="p-2 hover:text-xl text-white">
+              News feed
+            </Link>
             <div
               tabIndex={0}
               className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow"
@@ -25,7 +24,7 @@ const Navbar = () => {
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
-                <img src="https://placeimg.com/80/80/people" alt="" />
+                <img src={img1} alt="" />
               </div>
             </label>
             <ul
