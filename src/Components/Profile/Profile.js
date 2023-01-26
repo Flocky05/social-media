@@ -5,7 +5,7 @@ import img2 from "../../imges/profile/bg.jpg";
 const Profile = () => {
   return (
     <section
-      className="mt-16 bg-no-repeat bg-cover relative bg-center "
+      className="bg-no-repeat bg-cover relative bg-center "
       style={{
         backgroundImage: `url(${img2})`,
         height: `720px`,

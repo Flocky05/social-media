@@ -1,4 +1,5 @@
 import Header from "../Components/Header/Header";
+import LogOut from "../Components/LogOut/LogOut";
 import Main from "../Components/Main/Main";
 import NewsFeed from "../Components/NewsFeed/NewsFeed";
 import Profile from "../Components/Profile/Profile";
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "/Profile",
         element: <Profile></Profile>,
+      },
+      {
+        path: "/Logout",
+        element: <LogOut></LogOut>,
       },
     ],
   },
