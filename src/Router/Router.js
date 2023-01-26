@@ -3,6 +3,7 @@ import LogOut from "../Components/LogOut/LogOut";
 import Main from "../Components/Main/Main";
 import NewsFeed from "../Components/NewsFeed/NewsFeed";
 import Profile from "../Components/Profile/Profile";
+import Login from "../Components/Shared/Login/Login";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/Logout",
         element: <LogOut></LogOut>,
+      },
+      {
+        path: "/Login",
+        element: <Login></Login>,
       },
     ],
   },
