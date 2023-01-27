@@ -21,6 +21,14 @@ const Profile = () => {
             className="w-80 h-80 rounded-full border-4 border-slate-300-500 "
           />
         </div>
+        <div className="absolute bottom-20 left-80">
+          <h2 className="text-4xl font-semibold text-black">
+            Md.Rakibul Islam
+          </h2>
+          <Link to="/About" className="text-black text-xl">
+            About
+          </Link>
+        </div>
       </section>
       <div className="my-4">
         <Link
