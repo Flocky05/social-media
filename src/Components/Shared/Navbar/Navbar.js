@@ -17,7 +17,16 @@ const Navbar = () => {
         </div>
         <div className="flex-none">
           <div className="dropdown dropdown-end">
-            <Link to="/Newsfeed" className="p-2 hover:text-xl text-white">
+            <Link
+              to="/Profile"
+              className="p-2 hover hover:text-transparent duration-1000 transition-front ease-out text-black "
+            >
+              Profile
+            </Link>
+            <Link
+              to="/Newsfeed"
+              className="p-2 hover hover:text-transparent duration-1000 ease-out text-black"
+            >
               News feed
             </Link>
             <div
