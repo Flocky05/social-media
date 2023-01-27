@@ -13,6 +13,7 @@ const Profile = () => {
           height: `720px`,
         }}
       >
+        <div className="w-full h-full absolute top-0 left-0 bg-black/50 hover:bg-transparent duration-1000 transition-colors ease-out" />
         <div className="absolute bottom-5 left-5">
           <img
             src={img}
