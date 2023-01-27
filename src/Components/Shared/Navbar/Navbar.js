@@ -1,13 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../../../imges/profile/profile.jpeg";
+import img2 from "../../../imges/icon/social-media (1).png";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-gray-200">
         <div className="flex-1">
-          <Link to="/Home" className="btn btn-ghost normal-case text-xl">
+          <Link
+            to="/Home"
+            className="btn btn-ghost normal-case text-xl text-white"
+          >
+            <img src={img2} className="w-7 h-7 rounded-full" alt="" />{" "}
             social-Media
           </Link>
         </div>
