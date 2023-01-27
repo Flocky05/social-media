@@ -12,8 +12,7 @@ const Navbar = () => {
             to="/Home"
             className="btn btn-ghost normal-case text-xl text-white"
           >
-            <img src={img2} className="w-7 h-7 rounded-full" alt="" />{" "}
-            social-Media
+            <img src={img2} className="w-7 h-7 m-3" alt="" /> social-Media
           </Link>
         </div>
         <div className="flex-none">
