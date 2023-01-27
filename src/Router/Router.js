@@ -2,6 +2,7 @@ import Header from "../Components/Header/Header";
 import LogOut from "../Components/LogOut/LogOut";
 import Main from "../Components/Main/Main";
 import NewsFeed from "../Components/NewsFeed/NewsFeed";
+import About from "../Components/Profile/About/About";
 import Profile from "../Components/Profile/Profile";
 import Uploade from "../Components/Profile/Upload/Uploade";
 import Login from "../Components/Shared/Login/Login";
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/Uploade",
         element: <Uploade></Uploade>,
+      },
+      {
+        path: "/About",
+        element: <About></About>,
       },
     ],
   },
