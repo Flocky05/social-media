@@ -16,16 +16,16 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex-none">
-          <div className="dropdown dropdown-end">
+          <div className="dropdown dropdown-end flex items-center">
             <Link
               to="/Profile"
-              className="p-2 hover hover:text-transparent duration-1000 transition-front ease-out text-black "
+              className="p-2 hover:scale-125 block duration-500 transition-front ease-out text-black "
             >
               Profile
             </Link>
             <Link
               to="/Newsfeed"
-              className="p-2 hover hover:text-transparent duration-1000 ease-out text-black"
+              className="p-2 hover hover:scle-125 block duration-1000 ease-out text-black"
             >
               News feed
             </Link>
