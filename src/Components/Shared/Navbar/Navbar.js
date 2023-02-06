@@ -25,7 +25,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/Newsfeed"
-              className="p-2 hover hover:scle-125 block duration-1000 ease-out text-black"
+              className="p-2 hover:scale-125 block duration-500 transition-front ease-out text-black "
             >
               News feed
             </Link>
